@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chetan Sharma | CAD Designer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #1e1e2f, #2e3c6b);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .skills .card {
+      text-align: center;
+      font-weight: bold;
+    }
+    .btn {
+      background: #2e3c6b;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background: #1e1e2f;
+    }
+    footer {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chetan Sharma</h1>
+    <p>CAD Designer | Mechanical Engineer | 3D Modeling Expert</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a final-year Mechanical Engineering student at MNIT Jaipur, with a deep interest in 3D modeling and product design. I create detailed CAD models and technical drawings using Fusion 360, SolidWorks, and other design tools. I’ve worked on real-world mechanical systems, from gearboxes to robotic arms.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Fusion 360</div>
+      <div class="card">SolidWorks</div>
+      <div class="card">Autodesk Inventor</div>
+      <div class="card">Abaqus CAE</div>
+      <div class="card">AutoCAD</div>
+      <div class="card">Ansys</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="./images/IFMS.png" alt="Project 1" />
+        <h3>IFMS</h3>
+        <a href="https://a360.co/4bNfuzJ">View Model</a>
+        <p>Designed a detailed CAD model of the IFMS machine in the Robotics and Automation lab, based on observation and self-determined dimensions.</p>
+      </div>
+      <div class="card">
+        <img src="./images/Epicyclic Gear Train.png" alt="Project 2" />
+        <h3>Epicyclic Gear Train</h3>
+        <a href="https://a360.co/42DuI7v">View Model</a>
+        <p>Designed a two stage compound Epicyclic Gear Train for wind turbine.</p>
+      </div>
+      <div class="card">
+        <img src="./images/4-cylinder Engine.gif" alt="Project 3" />
+        <h3>Engine Piston Design</h3>
+        <a href="https://a360.co/3ZS4COg">View Model</a>
+        <p>Designed a four cylinder Engine piston cylinder assembly.Slider crank mechanism.</p>
+      </div>
+      <div class="card">
+        <img src="./images/Radial Engine.gif" alt="Project 3" />
+        <h3>Radial Engine Design</h3>
+        <a href="https://a360.co/3Se2qfc">View Model</a>
+        <p>Designed a six cylinder Radial Engine piston cylinder assembly.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3" />
+        <h3>Engine Piston Design</h3>
+        <p>Parametric design of piston and connecting rod with stress analysis in Fusion 360.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: chetananusharma2000@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/chetan-sharma-a29a50264" target="_blank">linkedin.com/in/chetan-sharma</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chetan Sharma | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
